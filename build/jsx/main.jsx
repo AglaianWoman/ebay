@@ -31,7 +31,7 @@ class AuctionItem extends React.Component {
 	render() {
 		let price = (<span className="price">{'$' + parseFloat(this.props.item.sellingStatus[0].currentPrice[0].__value__).toFixed(2)}</span>);
 		return (
-			<li><a href={this.props.item.viewItemURL}><img src={this.props.item.galleryURL} alt={this.props.item.title} /><h3>{this.props.item.title}</h3> {price}</a></li>
+			<li><a href={this.props.item.viewItemURL} target="_blank"><img src={this.props.item.galleryURL} alt={this.props.item.title} /><h3>{this.props.item.title}</h3> {price}</a></li>
 		);
 	}
 }
