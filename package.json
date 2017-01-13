@@ -3,8 +3,7 @@
   "version": "0.1.0",
   "description": "Ebay List",
   "author": {
-    "name": "sarnackidesign",
-    "url": "www.sarnackidesign.com"
+    "name": "sarnackidesign"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
